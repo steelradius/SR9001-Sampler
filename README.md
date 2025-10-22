@@ -17,6 +17,7 @@ Functionality as of 10/19/25:
   2. Sample playback with relative pitch per note
   3. Setting sample start and endpoint (if end position is before start, playback is reversed)
   4. Sample slicing with 8 individual slices available
-  5. Sample Rate Reduction
-  6. Monophonic retrigger voice
-  7. Stereo support, mono plays in left channel only
+  5. ADSR envelope
+  6. Sample Rate Reduction
+  7. Monophonic retrigger voice
+  8. Stereo support, mono plays in left channel only
