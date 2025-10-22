@@ -2,12 +2,13 @@ THIS PROJECT IS A WORK IN PROGRESS
 
 How to use:
   1. Install plugdata as you would any standard VST plugin
-  2. Open plugdata in your DAW of choice.
-  3. Click the menu button -> Open Patch -> select the .pd patch from this repo
-  4. Load a WAV file by clicking the "Load Sample" button
-  5. Ensure dsp option (bottom right corner) is checked
-  6. Set the volume slider to an appropriate level
-  7. Press keys on your computer keyboard, MIDI keyboard, or onscreen keyboard to replay the sample.
+  2. Download sr9001-sampler.pd and customkeymap.pd
+  3. Open plugdata in your DAW of choice.
+  4. Click the menu button -> Open Patch -> select the .pd patch from this repo
+  5. Load a WAV file by clicking the "Load Sample" button
+  6. Ensure dsp option (bottom right corner) is checked
+  7. Set the volume slider to an appropriate level
+  8. Press keys on your computer keyboard, MIDI keyboard, or onscreen keyboard to replay the sample.
 
 You can change the sample start and end positions by using their respective sliders.
 
