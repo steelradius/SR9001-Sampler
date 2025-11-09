@@ -1,7 +1,7 @@
 THIS PROJECT IS A WORK IN PROGRESS
 
 Screenshot:
-<img width="1283" height="743" alt="Screenshot_2025-10-29_22-30-55" src="https://github.com/user-attachments/assets/6922cacc-d4f5-472a-9074-9292ed7db16c" />
+<img width="1283" height="763" alt="Screenshot_2025-11-09_13-08-13" src="https://github.com/user-attachments/assets/8ed61dc2-0843-4731-b860-035d8e619b5e" />
 
 How to use:
   1. Install plugdata as you would any standard VST plugin
