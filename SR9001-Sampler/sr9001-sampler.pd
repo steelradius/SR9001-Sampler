@@ -560,6 +560,7 @@
 #X connect 218 0 217 1;
 #X connect 218 0 216 1;
 #X connect 219 0 215 0;
+#X connect 219 0 305 0;
 #X connect 220 0 210 0;
 #X connect 222 0 195 0;
 #X connect 224 0 222 0;
