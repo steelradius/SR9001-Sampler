@@ -15,7 +15,7 @@ How to use:
 
 You can change the sample start and end positions by using their respective sliders.
 
-Functionality as of 10/19/25:
+Functionality as of 11/11/25:
   1. Loading WAV/AIFF/AAC/OPUS/OGG/MP3/FLAC, also SF2 and SFZ (but not feature complete on these)
   2. Sample playback with relative pitch per note
   3. Setting sample start and endpoint (if end position is before start, playback is reversed)
