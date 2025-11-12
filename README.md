@@ -1,7 +1,7 @@
 THIS PROJECT IS A WORK IN PROGRESS
 
 Screenshot:
-<img width="1283" height="763" alt="Screenshot_2025-11-09_13-08-13" src="https://github.com/user-attachments/assets/8ed61dc2-0843-4731-b860-035d8e619b5e" />
+<img width="1283" height="763" alt="Screenshot_2025-11-11_18-42-25" src="https://github.com/user-attachments/assets/411af6c4-0d1f-4a07-b27c-79c246cf1c3e" />
 
 How to use:
   1. Install plugdata as you would any standard VST plugin
@@ -16,11 +16,13 @@ How to use:
 You can change the sample start and end positions by using their respective sliders.
 
 Functionality as of 10/19/25:
-  1. Loading WAV/AIFF/AAC/OPUS/OGG/MP3/FLAC
+  1. Loading WAV/AIFF/AAC/OPUS/OGG/MP3/FLAC, also SF2 and SFZ (but not feature complete on these)
   2. Sample playback with relative pitch per note
   3. Setting sample start and endpoint (if end position is before start, playback is reversed)
-  4. Sample slicing with 8 individual slices available
+  4. Sample slicing with 10 individual slices available
   5. ADSR envelope
   6. Sample Rate Reduction
-  7. Monophonic retrigger voice
+  7. Monophonic retrigger voice, monophonic legato voice, polyphonic voice
   8. Stereo support, mono plays in left channel only
+  9. Reverb
+  10. ESS (Extreme Sound Stretching algorithm) credits go to Paul Nasca and Martin Brinkmann
