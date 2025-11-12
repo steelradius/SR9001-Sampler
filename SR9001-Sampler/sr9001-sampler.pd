@@ -489,6 +489,15 @@
 #X obj -575 858 else/pack2 f 1;
 #X obj -705 888 else/insert pgm;
 #X obj -575 888 else/insert bank;
+#X obj 23 328 bng 25 250 50 0 empty empty load\ sf2 17 7 0 10 #191919 #e1e1e1 #e1e1e1;
+#X obj -541 505 openpanel;
+#X msg -336 888 open \$1;
+#X obj -190 1057 route list;
+#X obj -184 1120 print dump;
+#X obj -237 940 print;
+#X obj 34 386 bng 25 250 50 0 empty empty load\ sfz 17 7 0 10 #191919 #e1e1e1 #e1e1e1;
+#X obj -399 540 openpanel;
+#X msg -210 886 open \$1;
 #X connect 15 0 28 0;
 #X connect 16 0 17 0;
 #X connect 16 0 75 0;
@@ -561,6 +570,7 @@
 #X connect 77 0 219 0;
 #X connect 77 0 224 0;
 #X connect 77 0 251 0;
+#X connect 77 0 76 0;
 #X connect 78 0 76 0;
 #X connect 80 0 84 0;
 #X connect 81 0 85 0;
@@ -791,6 +801,7 @@
 #X connect 301 1 151 0;
 #X connect 302 0 152 0;
 #X connect 302 1 151 0;
+#X connect 302 2 342 0;
 #X connect 303 0 304 0;
 #X connect 304 0 317 0;
 #X connect 304 0 318 0;
@@ -814,3 +825,11 @@
 #X connect 336 0 338 0;
 #X connect 337 0 334 0;
 #X connect 338 0 333 0;
+#X connect 339 0 340 0;
+#X connect 340 0 341 0;
+#X connect 341 0 302 0;
+#X connect 341 0 344 0;
+#X connect 342 0 343 0;
+#X connect 345 0 346 0;
+#X connect 346 0 347 0;
+#X connect 347 0 301 0;
